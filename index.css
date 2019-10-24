@@ -1,0 +1,16 @@
+.article-list-box{
+    margin-top: 10px;
+}
+.article-list-box>ul>li>a{
+    display: block;
+    padding: 5px;
+    padding-left: 0;
+    
+}
+.article-list-box>ul>li>a::before{
+    content:"◎ ";
+}
+.article-list-box>ul>li::hover>a{
+    background-color:ghostwhite;
+    
+}
