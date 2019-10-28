@@ -1,0 +1,19 @@
+.top-bar {
+    background-color:black;
+    color:seashell;
+}
+.top-bar .menu-1>ul>li>a{
+    display: block;
+    padding: 5px 10px;
+    font-size: 0.77rem;
+}
+.top-bar .menu-1>ul>li:last-child>a{
+    padding-right: 0;
+}
+.cell-right{
+    float: right;
+    box-sizing: border-box;
+}
+.top-bar .menu-1>ul>li:hover>a{
+    color:indianred
+}
