@@ -1,5 +1,6 @@
 .article-list-box{
     margin-top: 10px;
+    background-color:gainsboro
 }
 .article-list-box>ul>li>a{
     display: block;
